@@ -1,0 +1,7 @@
+# Generic template only; cron.yaml formats vary by hosting platform.
+# Replace these placeholders with the schema and values your platform expects.
+jobs:
+  - name: sample-job
+    schedule: "<cron-expression>"
+    command: "<command-to-run>"
+    enabled: false
